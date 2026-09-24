@@ -69,8 +69,111 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "padstack|119020000|39120000|197f4e12-2eed-4c47-b4f4-9c33b91bb4f3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|138070000|39120000|aa87df6f-7527-4a3d-90d4-a62a234e98d2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|80920000|39120000|4d9715bf-e20a-47fd-8478-2505eaea2fbb|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|99970000|39120000|a947c889-715c-4242-9424-42a5fc40199e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|49127100|58700000|5139e1b4-70dc-4641-988b-6c60c44fe36e|2eabd7d9-1636-44b1-89cd-d6cd1d1747f4",
+          ""
+        ],
+        [
+          "silk_over_copper|49131100|40920000|fe5cf72f-0758-4168-bcc5-79e3182b82e4|56251f74-503d-44ca-ab15-e8ccef6f26df",
+          ""
+        ],
+        [
+          "silk_over_copper|50643100|40920000|2c697278-f31a-4f04-b30b-49d0e8915e72|56251f74-503d-44ca-ab15-e8ccef6f26df",
+          ""
+        ],
+        [
+          "silk_over_copper|50643100|58700000|29e82420-8a87-4adc-a1cb-70de1e260d11|2eabd7d9-1636-44b1-89cd-d6cd1d1747f4",
+          ""
+        ],
+        [
+          "silk_over_copper|53183100|40920000|2c697278-f31a-4f04-b30b-49d0e8915e72|e69e1909-0feb-4ea7-b555-fb18ade556f4",
+          ""
+        ],
+        [
+          "silk_over_copper|53183100|58700000|29e82420-8a87-4adc-a1cb-70de1e260d11|20d0c3ae-10a6-4d2f-b87e-214e886c7efa",
+          ""
+        ],
+        [
+          "silk_over_copper|55723100|40920000|2c697278-f31a-4f04-b30b-49d0e8915e72|981523ae-816a-4be0-b3a7-5fe4740aa519",
+          ""
+        ],
+        [
+          "silk_over_copper|55723100|58700000|29e82420-8a87-4adc-a1cb-70de1e260d11|3ae12eee-b224-4f93-b66c-fd7187e07204",
+          ""
+        ],
+        [
+          "silk_over_copper|58263100|40920000|2c697278-f31a-4f04-b30b-49d0e8915e72|38627f9e-2213-48ef-bd7f-9d2a9f602297",
+          ""
+        ],
+        [
+          "silk_over_copper|58263100|58700000|29e82420-8a87-4adc-a1cb-70de1e260d11|f43f466e-759e-4e3f-97f0-535988fc40ac",
+          ""
+        ],
+        [
+          "silk_over_copper|60803100|40920000|2c697278-f31a-4f04-b30b-49d0e8915e72|57810d4f-7759-4d32-b598-84e96449dd50",
+          ""
+        ],
+        [
+          "silk_over_copper|60803100|58700000|29e82420-8a87-4adc-a1cb-70de1e260d11|f8f5fc0a-b2ff-4741-94bc-d1e111affd08",
+          ""
+        ],
+        [
+          "silk_over_copper|63343100|40920000|2c697278-f31a-4f04-b30b-49d0e8915e72|6f9d4ba1-fb8c-4fc3-bb9c-217d5828bf49",
+          ""
+        ],
+        [
+          "silk_over_copper|63343100|58700000|29e82420-8a87-4adc-a1cb-70de1e260d11|2764369c-46ab-4fa5-9a37-f8eeefca6615",
+          ""
+        ],
+        [
+          "silk_over_copper|65883100|40920000|2c697278-f31a-4f04-b30b-49d0e8915e72|fcbe326d-5581-4778-8659-4879cb40d9a5",
+          ""
+        ],
+        [
+          "silk_over_copper|65883100|58700000|29e82420-8a87-4adc-a1cb-70de1e260d11|99a11ba2-6fcf-4f0a-8cc4-847d9de9822d",
+          ""
+        ],
+        [
+          "silk_over_copper|66276100|40920000|ca9b28fe-5d1d-4b11-9d36-f878a90cd3a1|fcbe326d-5581-4778-8659-4879cb40d9a5",
+          ""
+        ],
+        [
+          "silk_over_copper|66276100|58700000|c2d2e71b-53c2-4756-b7e3-f0586ca1d851|99a11ba2-6fcf-4f0a-8cc4-847d9de9822d",
+          ""
+        ],
+        [
+          "silk_over_copper|68181100|44370000|5066612e-1c71-4876-916a-c379b0791da9|50f2bfcf-3d86-476b-8530-b273290208d8",
+          ""
+        ],
+        [
+          "silk_over_copper|68181100|46275000|5066612e-1c71-4876-916a-c379b0791da9|b6ccbbbd-ed2e-435d-9143-3cab6d8162c8",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -92,7 +195,7 @@
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "warning",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -203,7 +306,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +338,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -524,7 +637,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/elias/repos/keith/gerbers/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

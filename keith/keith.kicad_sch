@@ -433,324 +433,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KiCad:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KiCad:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "KiCad:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -1351,7 +1033,203 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "custom:TLV772"
+		(symbol "custom:PCBCoil"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PCBCoil"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PCBCoil_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PCBCoil_1_1"
+				(pin no_connect line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:STLQ020C22R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1367,7 +1245,7 @@
 					)
 				)
 			)
-			(property "Value" "TLV772"
+			(property "Value" "STLQ020C22R"
 				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1390,7 +1268,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv772.pdf"
+			(property "Datasheet" ""
 				(at 0.254 -11.684 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1401,7 +1279,7 @@
 					)
 				)
 			)
-			(property "Description" "500mA Low-Dropout Linear Regulator, Adjustable Output, WSON-6"
+			(property "Description" ""
 				(at -0.254 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1434,7 +1312,7 @@
 					)
 				)
 			)
-			(symbol "TLV772_0_1"
+			(symbol "STLQ020C22R_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -1447,7 +1325,7 @@
 					)
 				)
 			)
-			(symbol "TLV772_1_1"
+			(symbol "STLQ020C22R_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -1502,10 +1380,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 2.54 180)
+				(pin no_connect line
+					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "OUT"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1520,10 +1398,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 7.62 -2.54 180)
+				(pin power_out line
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "FB"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1531,44 +1409,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "DNC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2060,22 +1900,10 @@
 		)
 	)
 	(junction
-		(at 106.68 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "030d690e-13c6-4da5-95f2-f3267880348a")
-	)
-	(junction
 		(at 167.64 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0578809f-77cb-4b7a-b5bb-b7b176bdfa78")
-	)
-	(junction
-		(at 96.52 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "075d6e68-dbf6-410b-acd2-42a24fb85e8b")
 	)
 	(junction
 		(at 82.55 25.4)
@@ -2094,12 +1922,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15055fac-bbbf-46d8-aad8-8222c303f167")
-	)
-	(junction
-		(at 106.68 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1598a0e6-5d0b-49b8-8962-708decb044d9")
 	)
 	(junction
 		(at 167.64 102.87)
@@ -2329,16 +2151,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 53.34) (xy 106.68 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26aa9a6e-afe8-425a-981d-37a39b9fdb5c")
-	)
-	(wire
-		(pts
 			(xy 31.75 102.87) (xy 26.67 102.87)
 		)
 		(stroke
@@ -2396,16 +2208,6 @@
 			(type default)
 		)
 		(uuid "3058db76-c661-4a7a-a441-b2529ea23fdc")
-	)
-	(wire
-		(pts
-			(xy 106.68 44.45) (xy 106.68 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30b32047-431b-4e29-80a7-c605922d1a80")
 	)
 	(wire
 		(pts
@@ -2529,16 +2331,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 44.45) (xy 106.68 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60373dde-86cd-439f-9005-a135915f125f")
-	)
-	(wire
-		(pts
 			(xy 124.46 44.45) (xy 182.88 44.45)
 		)
 		(stroke
@@ -2619,7 +2411,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 53.34) (xy 96.52 54.61)
+			(xy 96.52 46.99) (xy 96.52 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3079,16 +2871,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 46.99) (xy 96.52 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2bf0a6f-544a-4bed-a198-44cd6bd8d62c")
-	)
-	(wire
-		(pts
 			(xy 182.88 72.39) (xy 182.88 87.63)
 		)
 		(stroke
@@ -3136,16 +2918,6 @@
 			(type default)
 		)
 		(uuid "f6b3afc9-8770-47bf-b4e0-f14d7a5039ab")
-	)
-	(wire
-		(pts
-			(xy 104.14 41.91) (xy 104.14 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7c9937a-201a-4ae9-8ef1-58cabd45e8d0")
 	)
 	(wire
 		(pts
@@ -3291,7 +3063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 83.5152 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3418,7 +3190,7 @@
 		)
 	)
 	(symbol
-		(lib_id "custom:TLV772")
+		(lib_id "custom:STLQ020C22R")
 		(at 96.52 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -3439,7 +3211,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV772"
+		(property "Value" "STLQ020C22R"
 			(at 96.52 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3486,14 +3258,8 @@
 		(pin "1"
 			(uuid "74e7f249-b188-4fc4-b297-1a00bb286c08")
 		)
-		(pin "7"
-			(uuid "315036d6-4bb6-4548-8262-df921e8ce682")
-		)
 		(pin "4"
 			(uuid "ed2d5892-4bdf-4fa9-a104-99cedaf251e9")
-		)
-		(pin "6"
-			(uuid "2d80a86d-d377-412a-9fbe-c9b32fe8e10e")
 		)
 		(pin "3"
 			(uuid "75859cab-48f8-438b-b12c-f5bfae84e2a8")
@@ -3672,7 +3438,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KiCad:L")
+		(lib_id "custom:PCBCoil")
 		(at 171.45 76.2 90)
 		(unit 1)
 		(body_style 1)
@@ -3684,28 +3450,26 @@
 		(fields_autoplaced yes)
 		(uuid "62272526-0a41-40e2-be89-04b73e010ed6")
 		(property "Reference" "L2"
-			(at 170.1799 74.93 0)
+			(at 171.45 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "L"
-			(at 172.7199 74.93 0)
+			(at 171.45 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "PCBCoils:Coil10W18mm0d12"
+		(property "Footprint" "PCBCoils:Coil10W18mm0d124layer"
 			(at 171.45 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3744,92 +3508,13 @@
 		(pin "2"
 			(uuid "79e74614-41f9-409d-ac8f-9df6beae5ddb")
 		)
+		(pin "0"
+			(uuid "3f893355-bcbb-4f85-8e12-88c6759d007f")
+		)
 		(instances
 			(project "keith"
 				(path "/46c2e860-d7e8-4e3a-8389-b30a0c85436e"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KiCad:R")
-		(at 106.68 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6db04dad-6054-4af8-bc45-26d2f93f4a21")
-		(property "Reference" "R2"
-			(at 109.22 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "60.4K"
-			(at 109.22 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.902 49.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 106.68 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a524b272-0f7e-4c6a-8723-81d18e8acfe1")
-		)
-		(pin "1"
-			(uuid "11a4d3a3-da2f-4fe1-8240-731e7f3d0ba2")
-		)
-		(instances
-			(project "keith"
-				(path "/46c2e860-d7e8-4e3a-8389-b30a0c85436e"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3901,10 +3586,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a335ffb3-6e06-4447-9151-b16efe7570ea")
+			(uuid "a335ffb3-6e06-4447-9151-b16efe7570eb")
 		)
 		(pin "2"
-			(uuid "ad302d49-ba7e-4271-ac57-ba2200601773")
+			(uuid "ad302d49-ba7e-4271-ac57-ba2200601774")
 		)
 		(instances
 			(project "keith"
@@ -3916,7 +3601,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KiCad:L")
+		(lib_id "custom:PCBCoil")
 		(at 171.45 105.41 90)
 		(unit 1)
 		(body_style 1)
@@ -3928,28 +3613,26 @@
 		(fields_autoplaced yes)
 		(uuid "7a199bd1-43f3-4444-ab9c-8c5af91b4889")
 		(property "Reference" "L4"
-			(at 170.1799 104.14 0)
+			(at 171.45 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "L"
-			(at 172.7199 104.14 0)
+			(at 171.45 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "PCBCoils:Coil10W18mm0d12"
+		(property "Footprint" "PCBCoils:Coil10W18mm0d124layer"
 			(at 171.45 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3983,10 +3666,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "7fc2a330-c66f-4c81-b4cb-ba094e7dd97a")
+			(uuid "7fc2a330-c66f-4c81-b4cb-ba094e7dd97b")
 		)
 		(pin "2"
-			(uuid "79e74614-41f9-409d-ac8f-9df6beae5ddb")
+			(uuid "79e74614-41f9-409d-ac8f-9df6beae5ddc")
+		)
+		(pin "0"
+			(uuid "3d53a663-eb78-46c4-bf34-e2bfe55b162b")
 		)
 		(instances
 			(project "keith"
@@ -4124,7 +3810,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KiCad:L")
+		(lib_id "custom:PCBCoil")
 		(at 171.45 62.23 90)
 		(unit 1)
 		(body_style 1)
@@ -4136,28 +3822,26 @@
 		(fields_autoplaced yes)
 		(uuid "93b11b2c-4b40-4433-9bf2-e27dbf60feab")
 		(property "Reference" "L1"
-			(at 170.1799 60.96 0)
+			(at 171.45 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "L"
-			(at 172.7199 60.96 0)
+			(at 171.45 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "PCBCoils:Coil10W18mm0d12"
+		(property "Footprint" "PCBCoils:Coil10W18mm0d124layer"
 			(at 171.45 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4195,6 +3879,9 @@
 		)
 		(pin "1"
 			(uuid "e5e9d033-01b3-4dc1-8440-150b2c6bbfd8")
+		)
+		(pin "0"
+			(uuid "97dacf94-c15e-45e6-b906-734607617d21")
 		)
 		(instances
 			(project "keith"
@@ -4317,7 +4004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 46.99 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4682,88 +4369,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KiCad:R")
-		(at 106.68 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aef6a675-125a-40a8-88ce-e06cd04e69f4")
-		(property "Reference" "R1"
-			(at 109.22 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "160K"
-			(at 109.22 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 104.902 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 106.68 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04482f07-0557-471d-a73c-9d495ce2087f")
-		)
-		(pin "2"
-			(uuid "5326b78d-106e-4f82-9836-ebafde3d222e")
-		)
-		(instances
-			(project "keith"
-				(path "/46c2e860-d7e8-4e3a-8389-b30a0c85436e"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KiCad:C")
 		(at 171.45 99.06 90)
 		(unit 1)
@@ -4831,10 +4436,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "32e4ae1e-af48-40a2-9e04-876cab143e70")
+			(uuid "32e4ae1e-af48-40a2-9e04-876cab143e71")
 		)
 		(pin "2"
-			(uuid "a74cd355-21a3-49b2-891d-6c70b6b2d4bd")
+			(uuid "a74cd355-21a3-49b2-891d-6c70b6b2d4be")
 		)
 		(instances
 			(project "keith"
@@ -5070,10 +4675,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "32e4ae1e-af48-40a2-9e04-876cab143e70")
+			(uuid "32e4ae1e-af48-40a2-9e04-876cab143e72")
 		)
 		(pin "2"
-			(uuid "a74cd355-21a3-49b2-891d-6c70b6b2d4bd")
+			(uuid "a74cd355-21a3-49b2-891d-6c70b6b2d4bf")
 		)
 		(instances
 			(project "keith"
@@ -5085,7 +4690,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KiCad:L")
+		(lib_id "custom:PCBCoil")
 		(at 171.45 91.44 90)
 		(unit 1)
 		(body_style 1)
@@ -5097,28 +4702,26 @@
 		(fields_autoplaced yes)
 		(uuid "c63d6032-f48c-4b50-9729-317f3b155d76")
 		(property "Reference" "L3"
-			(at 170.1799 90.17 0)
+			(at 171.45 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "L"
-			(at 172.7199 90.17 0)
+			(at 171.45 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "PCBCoils:Coil10W18mm0d12"
+		(property "Footprint" "PCBCoils:Coil10W18mm0d124layer"
 			(at 171.45 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5152,10 +4755,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "7fc2a330-c66f-4c81-b4cb-ba094e7dd97a")
+			(uuid "7fc2a330-c66f-4c81-b4cb-ba094e7dd97c")
 		)
 		(pin "2"
-			(uuid "79e74614-41f9-409d-ac8f-9df6beae5ddb")
+			(uuid "79e74614-41f9-409d-ac8f-9df6beae5ddd")
+		)
+		(pin "0"
+			(uuid "96a2e84e-cbbd-485a-bbda-ceeb30d37380")
 		)
 		(instances
 			(project "keith"
@@ -5232,10 +4838,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a335ffb3-6e06-4447-9151-b16efe7570ea")
+			(uuid "a335ffb3-6e06-4447-9151-b16efe7570ec")
 		)
 		(pin "2"
-			(uuid "ad302d49-ba7e-4271-ac57-ba2200601773")
+			(uuid "ad302d49-ba7e-4271-ac57-ba2200601775")
 		)
 		(instances
 			(project "keith"
@@ -5362,7 +4968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 111.4552 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5698,10 +5304,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "32e4ae1e-af48-40a2-9e04-876cab143e70")
+			(uuid "32e4ae1e-af48-40a2-9e04-876cab143e73")
 		)
 		(pin "2"
-			(uuid "a74cd355-21a3-49b2-891d-6c70b6b2d4bd")
+			(uuid "a74cd355-21a3-49b2-891d-6c70b6b2d4c0")
 		)
 		(instances
 			(project "keith"
